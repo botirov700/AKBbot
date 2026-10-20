@@ -11,7 +11,7 @@ from aiogram.types import FSInputFile, Message
 from mutagen.id3 import APIC, ID3, TIT2, TPE1, ID3NoHeaderError
 from PIL import Image
 
-TOKEN = ""  # @BotFather dan olasiz
+TOKEN = os.getenv("BOT_TOKEN")
 
 router = Router()
 
